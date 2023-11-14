@@ -27,7 +27,9 @@ async function InsertVerifyUser(name, email, password){
         })
         // console.log(newUser);
 
-        const activationLink = `http://localhost:4000/signin/${token}`;
+        // const activationLink = `http://localhost:4000/signin/${token}`;
+        const activationLink = `https://guvi101-backend.onrender.com/signin/${token}`;
+
 
         const content = `<h4>Hi, there</h4>
         <h5>Welcome to the app</h5>
