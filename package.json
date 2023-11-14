@@ -19,6 +19,5 @@
     "nodemailer": "^6.9.7",
     "nodemon": "^3.0.1",
     "redis": "^4.6.10",
-    "bson": "^latest_version"
   }
 }
